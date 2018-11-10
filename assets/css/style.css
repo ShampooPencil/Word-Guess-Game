@@ -1,0 +1,11 @@
+body{
+    padding-left: 4em;
+}
+#wordGuess { letter-spacing: 10px; } 
+#wins { color: gold; } 
+#losses { color: red; } 
+#remGuesses { color: green; } 
+#lettersGuessed { 
+    color: blue;
+    letter-spacing: 15px; 
+} 
