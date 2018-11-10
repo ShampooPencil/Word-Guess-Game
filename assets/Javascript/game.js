@@ -94,22 +94,22 @@ document.onkeyup = function(event){  //Main function. (side note, I think MainFu
                 }
             }*/
         }
+        if(game.guessWord === wordGuessId.innerHTML){
+            game.wins = game.wins + 1;
+            restartFunction();
+        }
+        lettersGuessedId.textContent = game.lettersGuessed;
+        wordGuessId.textContent = word;
+    
     }
     
             
         
-    if(game.guessWord === wordGuessId.innerHTML){
-        game.wins = game.wins + 1;
-        restartFunction();
-    }
-}
+    
     
 
     
     
     
 
-
-   lettersGuessedId.textContent = game.lettersGuessed;
-    wordGuessId.textContent = word;
 
